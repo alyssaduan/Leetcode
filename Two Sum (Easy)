@@ -13,7 +13,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1]
 
-
+-----------------------------------------------------------------------------
 Code:
 class Solution:
     def twoSum(self, nums, target):
@@ -30,7 +30,7 @@ class Solution:
             num = target - nums[i]
             if num in num_dict and num_dict[num] != i:
                 return [i, num_dict[num]]
-              
+ ----------------------------------------------------------------------------------             
  Complexity:
   Space: O(n)
   Time: O(n)
